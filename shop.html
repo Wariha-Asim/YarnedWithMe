@@ -99,5 +99,18 @@
   <div class="border-t border-white/10 py-4 text-center text-xs text-slate-400/80">© 2025 YarnedWithMe. All rights reserved.</div>
 </footer>
 
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+  const menuToggle = document.getElementById("menu-toggle");
+  const mobileMenu = document.getElementById("mobile-menu");
+
+  if (menuToggle) {
+    menuToggle.addEventListener("click", () => {
+      mobileMenu.classList.toggle("hidden");
+    });
+  }
+});
+</script>
+  
 </body>
 </html>
